@@ -8,7 +8,14 @@ export class UsersDTO {
     //@inNotEmpty
     //@isEmail
     email: string
+     
+    //@inNotEmpty
     senha: string
+
+    //@inNotEmpty
+    //@inBoolean
     isActive: boolean
+
+    //@inNotEmpty
     post: Posts[];
 }
