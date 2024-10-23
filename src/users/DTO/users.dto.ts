@@ -6,7 +6,7 @@ export class UsersDTO {
     name: string
 
     //@inNotEmpty
-    //@
+    //@isEmail
     email: string
     senha: string
     isActive: boolean
