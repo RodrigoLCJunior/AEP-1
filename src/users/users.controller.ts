@@ -28,6 +28,7 @@ export class UsersController {
   @Post('save')
   @Redirect('/users') // Redireciona para a lista de usuários após a criação
   async create(@Body() usersDTO: UsersDTO) {
+    //this.userRepository.save()
     await this.usersService.create(usersDTO);
   }
 
