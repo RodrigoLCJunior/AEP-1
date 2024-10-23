@@ -1,3 +1,4 @@
+//BAIXAR DEPENDENCIA DE VALIDAÇÃO
 import { Posts } from "src/posts/posts.entity";
 
 export class UsersDTO {
